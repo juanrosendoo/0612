@@ -5,7 +5,6 @@ public class Matriz {
     private int matriz [][];
     private int lin;
     private int col;
- 
     
     public void iniciaMatriz(int x, int y){
         
