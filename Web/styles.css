@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    background-color: darkslateblue;
+    margin: auto;
+    padding: 15px;
+    border: 3px solid yellow;
+    width: 55%;
+}
+
+.forgot{
+    font-size: 12px;
+    color: lightblue;
+    position: relative;    
+    top: -10px;
+    padding: 13.8%;
+}
+
+.monkey{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
