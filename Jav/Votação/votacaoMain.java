@@ -1,6 +1,6 @@
-public class Orangotango {
+public class votacaoMain {
     public static void main(String[] args) {
-        Urnas urna = new Urnas();
+        urnas urna = new urnas();
         urna.urnaVotar();
     }
 }

@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class Urnas {
+public class urnas {
 
     Scanner sc = new Scanner(System.in);
 
-    Candidato candidato1 =  new Candidato("Juan", 10, "Presidente");
-    Candidato candidato2 =  new Candidato("Arthur", 11, "Presidente");
-    Candidato candidato3 =  new Candidato("Pedro", 12, "Presidente");
+    candidato candidato1 =  new candidato("Juan", 10, "Presidente");
+    candidato candidato2 =  new candidato("Arthur", 11, "Presidente");
+    candidato candidato3 =  new candidato("Pedro", 12, "Presidente");
 
-    Candidato candidato4 =  new Candidato("Amanda", 20, "Governador");
-    Candidato candidato5 =  new Candidato("Iara", 21, "Governador");
-    Candidato candidato6 =  new Candidato("Gi", 22, "Governador");
+    candidato candidato4 =  new candidato("Amanda", 20, "Governador");
+    candidato candidato5 =  new candidato("Iara", 21, "Governador");
+    candidato candidato6 =  new candidato("Gi", 22, "Governador");
 
-    Candidato candidato7 =  new Candidato("Bandeira", 30, "Prefeito");
-    Candidato candidato8 =  new Candidato("Davi", 31, "Prefeito");
-    Candidato candidato9 =  new Candidato("PV", 32, "Prefeito");
+    candidato candidato7 =  new candidato("Bandeira", 30, "Prefeito");
+    candidato candidato8 =  new candidato("Davi", 31, "Prefeito");
+    candidato candidato9 =  new candidato("PV", 32, "Prefeito");
 
     public void zeraVotos() {
 
