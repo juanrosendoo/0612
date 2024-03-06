@@ -7,36 +7,32 @@ public class CaracterMain{
         
         Scanner sc = new Scanner(System.in);
 
-        char z;
+        int tamanhoC = 0;
         
         System.out.println("Insira o texto a ter a frequencia exibida:");
         String texto=sc.nextLine();        
         
 
         Caracter[] c= new Caracter[texto.length()];
-
-        c[0]=new Caracter(texto.charAt(0));
-        c[0].acresceAparicoes();
         
-        for(int i=1; i<texto.length(); i++){
-            int abc=0;
-            z=texto.charAt(i);
-            for(int j=0; j<i; j++){
-                if(z==texto.charAt(j)){
-                    abc++;
+        for(int i=0; i<texto.length(); i++){
+            boolean abc=true;
+            for(int j=0; j<tamanhoC; j++){
+                if(texto.charAt(i)==c[j].tecla){
+                    c[j].acresceAparicoes();
+                    abc=false;
+                    break;
                 }
             }   
-            if(abc==0){
-                c[i]=new Caracter(z);
-                c[i].acresceAparicoes();
-            }
-            else{
-                c[i].acresceAparicoes();
+            if(abc==true){
+                c[tamanhoC]=new Caracter(texto.charAt(i));
+                c[tamanhoC].acresceAparicoes();
+                tamanhoC++;
             }
         }
         
-        for(int i=0; i<c.length; i++){
-            System.out.println(c[i].tecla + ": " + c[i].exibeAparicoes());
+        for(int i=0; i<tamanhoC; i++){
+            System.out.println(c[i].tecla+": "+c[i].exibeAparicoes());
         }
     
         sc.close();
