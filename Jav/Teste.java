@@ -36,5 +36,6 @@ public class Teste {
 
         System.out.println("O próximo primo é: " + proximoPrimo(a));
 
+        sc.close();
     }
 }

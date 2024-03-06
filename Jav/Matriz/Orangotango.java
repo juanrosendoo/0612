@@ -49,5 +49,6 @@ public class Orangotango {
                 break;
             }
         }
+        sc.close();
     }
 }
