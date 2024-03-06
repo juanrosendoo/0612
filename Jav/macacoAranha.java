@@ -10,8 +10,8 @@ public class macacoAranha{
         
         for(int i=0; i<texto.length(); i++){
             texto.charAt(i);
-        }
-        
-        
+        }        
+    
+        sc.close();
     }
 }
