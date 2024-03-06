@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class macacoAranha{
+public class CaracterMain{
         
     
     public static void main(String[] args) {
@@ -13,9 +13,9 @@ public class macacoAranha{
         String texto=sc.nextLine();        
         
 
-        caracter[] c= new caracter[texto.length()];
+        Caracter[] c= new Caracter[texto.length()];
 
-        c[0]=new caracter(texto.charAt(0));
+        c[0]=new Caracter(texto.charAt(0));
         c[0].acresceAparicoes();
         
         for(int i=1; i<texto.length(); i++){
@@ -27,7 +27,7 @@ public class macacoAranha{
                 }
             }   
             if(abc==0){
-                c[i]=new caracter(z);
+                c[i]=new Caracter(z);
                 c[i].acresceAparicoes();
             }
             else{

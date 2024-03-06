@@ -1,11 +1,11 @@
-public class candidato{
+public class Candidato{
 
     private String nome;
     private int numero;
     private String cargo;
     public int votos;
 
-	public candidato(String nome, int numero, String cargo){
+	public Candidato(String nome, int numero, String cargo){
 		this.nome=nome;
         this.numero=numero;
         this.cargo=cargo;

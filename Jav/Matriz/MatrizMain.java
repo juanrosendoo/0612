@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class matrizMain {
+public class MatrizMain {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
 
-        matriz garrafa = new matriz();
+        Matriz garrafa = new Matriz();
 
         int a, b, op=10;
 

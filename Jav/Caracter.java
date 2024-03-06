@@ -1,9 +1,9 @@
-public class caracter {
+public class Caracter {
     
     public char tecla;
     private int numeroDeAparicoes=0;
 
-    public caracter(char tecla){
+    public Caracter(char tecla){
         this.tecla=tecla;
     }
 

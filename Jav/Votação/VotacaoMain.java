@@ -1,6 +1,6 @@
-public class votacaoMain {
+public class VotacaoMain {
     public static void main(String[] args) {
-        urnas urna = new urnas();
+        Urnas urna = new Urnas();
         urna.urnaVotar();
     }
 }
