@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Matriz {
+public class matriz {
 
     private int matriz [][];
     private int lin;
