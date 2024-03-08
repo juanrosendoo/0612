@@ -16,7 +16,7 @@ public class Matriz {
 
         for(int i=0; i<x; i++){
             for(int j=0; j<y; j++){
-                matriz[i][j]=rand.nextInt(101);
+                this.matriz[i][j]=rand.nextInt(101);
             }
         }
     }

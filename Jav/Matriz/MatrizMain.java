@@ -11,7 +11,7 @@ public class MatrizMain {
 
         System.out.println("Escolha as dimensões da matriz aleatória a ser gerada:");
         a=sc.nextInt();
-        String c= sc.nextLine();
+        @SuppressWarnings("unused") String c= sc.nextLine();
         b=sc.nextInt();
 
         garrafa.iniciaMatriz(a, b);
