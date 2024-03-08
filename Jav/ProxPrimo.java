@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Teste {
+public class ProxPrimo {
 
     static int proximoPrimo(int x){
         while(true){
