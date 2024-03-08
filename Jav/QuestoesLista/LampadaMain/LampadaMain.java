@@ -6,6 +6,7 @@ public class LampadaMain {
         Lampada xdxd=new Lampada();
 
         xdxd.escolheTipo();
+        xdxd.ligaDesliga();
 
     }
 }
