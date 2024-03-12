@@ -27,7 +27,7 @@ public class Triangulo {
     }
 
     public String tipoTriangulo(){
-        if((this.ladoA==this.ladoB)&&(this.ladoB==this.ladoC)&&(this.ladoC==this.ladoA)){
+        if((this.ladoA==this.ladoB)&&(this.ladoB==this.ladoC)){
             return"O triangulo e equilatero.";
         }
         else if((this.ladoA==this.ladoB)||(this.ladoB==this.ladoC)||(this.ladoC==this.ladoA)){

@@ -14,6 +14,7 @@ public class Dado {
     }
 
     public void jogar(){
+        this.inicaliza();
         Random x = new Random();
 
         System.out.println("Lado: "+this.lados[x.nextInt(6)]);
@@ -22,6 +23,7 @@ public class Dado {
     //ADICIONAR PARTE ABAIXO APENAS NA QUESTÃO 29
 
     public void jogar(int x){
+        this.inicaliza();
         if(x>=1&&x<=6){
             System.out.println("Lado: "+this.lados[x-1]);
         }

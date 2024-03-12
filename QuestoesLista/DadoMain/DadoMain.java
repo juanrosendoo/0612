@@ -5,7 +5,6 @@ public class DadoMain {
         
         Dado dado = new Dado();
 
-        dado.inicaliza();
         dado.jogar();
         //ADICIONAR PARTE ABAIXO APENAS NA QUESTÃO 29
         dado.jogar(3);
