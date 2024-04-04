@@ -8,7 +8,7 @@ public class Asteriscos{
         Scanner sc = new Scanner(System.in);
 
         int n;
-
+        
         System.out.println("Insira o número n de linhas para a piramide de asteriscos:");
         n=sc.nextInt();
 

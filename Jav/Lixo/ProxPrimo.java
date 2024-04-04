@@ -1,3 +1,5 @@
+package Jav.Lixo;
+
 import java.util.Scanner;
 
 public class ProxPrimo {

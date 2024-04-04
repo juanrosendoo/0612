@@ -4,7 +4,7 @@ public class EstacaoFerroviaria {
     private String descricao;
 
     EstacaoFerroviaria(LinhaFerroviaria linhasFerroviarias){
-        for(int i=0; i<linhasFerroviarias.length; i++){
+        for(int i=0; i<linhasFerroviarias.lenght; i++){
             this.linhasFerroviarias[i]=linhasFerroviarias;
         }
     }
