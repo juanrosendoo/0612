@@ -24,7 +24,7 @@ public class CaracterMain{
                     break;
                 }
             }   
-            if(abc==true){
+            if(abc){
                 c[tamanhoC]=new Caracter(texto.charAt(i));
                 c[tamanhoC].acresceAparicoes();
                 tamanhoC++;

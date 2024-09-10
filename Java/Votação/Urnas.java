@@ -11,7 +11,7 @@ public class Urnas {
     Candidato candidato4 =  new Candidato("Amanda", 20, "Governador");
     Candidato candidato5 =  new Candidato("Iara", 21, "Governador");
     Candidato candidato6 =  new Candidato("Gi", 22, "Governador");
-
+    
     Candidato candidato7 =  new Candidato("Bandeira", 30, "Prefeito");
     Candidato candidato8 =  new Candidato("Davi", 31, "Prefeito");
     Candidato candidato9 =  new Candidato("PV", 32, "Prefeito");

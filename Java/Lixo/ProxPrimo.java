@@ -1,4 +1,4 @@
-package Jav.Lixo;
+package Java.Lixo;
 
 import java.util.Scanner;
 
