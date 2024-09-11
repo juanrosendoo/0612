@@ -1,4 +1,4 @@
-package Java;
+package Java.Lixo;
 import java.util.Scanner;
 
 public class Questao {
